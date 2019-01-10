@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0f0</item>
+        <item name="colorPrimaryDark">#0f0</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseTheme" parent="@android:style/Theme.Material">
+        <!--状态栏颜色-->
+        <item name="android:colorPrimaryDark">#f00</item>
+        <!--ActionBar颜色-->
+        <item name="android:colorPrimary">#0ff</item>
+        <!--界面背景颜色-->
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <!--导航栏颜色-->
+        <item name="android:navigationBarColor">#00f</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/es/android.biginner.com.toolpack"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aqua"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp">
+
+    <NumberPicker
+        android:visibility="gone"
+        android:id="@+id/np"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></NumberPicker>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="196dp"
+    android:layout_height="114dp">
+    <android.biginner.com.toolpack.PickerView
+        android:id="@+id/pv1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+    <android.biginner.com.toolpack.PickerView
+        android:id="@+id/pv2"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+    <android.biginner.com.toolpack.PickerView
+        android:id="@+id/pv3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+</LinearLayout>
+    <android.biginner.com.toolpack.SelectorView
+        android:visibility="gone"
+        android:id="@+id/sv"
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

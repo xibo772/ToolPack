@@ -1,0 +1,11 @@
+分包建议：
+    base-------------基础类：BaseActivity、Base_Adapter、、、、
+    constant---------常量类：
+    entity-----------实体类：modle、、、、、
+    broadcast--------广播类：
+    service----------服务类：
+    utils------------工具类
+    custom-----------自定义控件
+    network----------网络类：
+    ui---------------UI类：可以细分activity/fragment/adapter
+                            也可按照界面拆分

@@ -1,0 +1,1 @@
+include ':app', ':tool_aar', ':tool_jar'

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="#f0f"
+        android:id="@+id/ibtn_increment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="22dip"
+        android:paddingTop="22dip" />
+
+    <TextView
+        android:layout_weight="1"
+        android:background="#ff0"
+        android:id="@+id/tv_pickerView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="#f0f"
+        android:id="@+id/ibtn_decrement"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="22dip"
+        android:paddingTop="22dip" />
+</merge>
